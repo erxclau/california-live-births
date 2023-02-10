@@ -1,1 +1,25 @@
 // Graphics CSS goes here
+svg.line-chart .line-path {
+  stroke-width: 6px;
+  stroke: #5db8e7;
+}
+
+.domain {
+  display: none;
+}
+
+svg .tick text {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+svg .tick line {
+  stroke: #c0c0c0;
+  stroke-opacity: 0.5;
+}
+
+svg .label {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}

@@ -2,11 +2,8 @@
   "entries": {
     "index.html": {
       "hed": "Headline",
-      "dek": "This is a short description",
-      "byline": "Firstname Lastname",
-      "source": "This is the source",
-      "note": "This is a note",
-      "illustrator_output_filename": "output.html"
+      "byline": "Eric Lau",
+      "source": "California Department of Public Health"
     }
   },
   "fetch": [
