@@ -1,0 +1,32 @@
+@import "./fonts.scss";
+@import "./colors.scss";
+
+body {
+  font-family: var(--sans);
+}
+
+.options {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#graphic {
+  border: 1px solid var(--gray);
+  width: 780px;
+  resize: horizontal;
+  overflow-x: auto;
+}
+
+.notes {
+  display: block;
+  max-width: 600px;
+  margin-top: 10px;
+  background-color: rgb(221, 221, 221);
+  padding: 5px;
+  margin: 10px 0;
+
+  details p {
+    margin: 0.5rem;
+  }
+}
